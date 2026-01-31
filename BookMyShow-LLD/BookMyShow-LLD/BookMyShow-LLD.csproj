@@ -10,9 +10,6 @@
 
   <ItemGroup>
     <Folder Include="tests\" />
-    <Folder Include="src\BookMyShow\Domain\Interfaces\" />
-    <Folder Include="src\BookMyShow\Strategies\" />
-    <Folder Include="src\BookMyShow\Services\" />
   </ItemGroup>
 
 </Project>
