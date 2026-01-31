@@ -14,7 +14,8 @@ namespace BookMyShow_LLD.src.BookMyShow.Services
             return new List<Movie>
             {
             new Movie(1, "Inception"),
-            new Movie(2, "Interstellar")            };
+            new Movie(2, "Interstellar")            
+            };
         }
     }
 }
