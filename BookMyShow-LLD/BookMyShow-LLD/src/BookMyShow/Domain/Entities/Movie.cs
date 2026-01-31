@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BookMyShow_LLD.src.BookMyShow.Domain.Entities
+{
+    public class Movie
+    {
+        public int MovieId { get; set; }
+        public string Title { get; set; }   
+
+        public Movie(int movieId, string title)
+        {
+            MovieId = movieId;
+            Title = title;
+        }
+    }
+}

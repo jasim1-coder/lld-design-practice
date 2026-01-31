@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>BookMyShow_LLD</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="tests\" />
+    <Folder Include="src\BookMyShow\Domain\Interfaces\" />
+    <Folder Include="src\BookMyShow\Strategies\" />
+    <Folder Include="src\BookMyShow\Services\" />
+  </ItemGroup>
+
+</Project>
