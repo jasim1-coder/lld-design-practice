@@ -4,7 +4,7 @@ using ElevatorSystem_LLD.src.ElevatorSystem.Domain.Interfaces;
 
 namespace ElevatorSystem_LLD.src.ElevatorSystem.Strategies
 {
-    public interface NearestElevatorStrategy : IElevatorSelectionStrategy
+    public class NearestElevatorStrategy : IElevatorSelectionStrategy
     {
         public Elevator SelectElevator(List<Elevator> elevators, int requestedFloor)
         {

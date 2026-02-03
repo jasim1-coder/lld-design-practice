@@ -14,7 +14,7 @@ namespace ElevatorSystem_LLD.src.ElevatorSystem.Domain.Entities
 
         public RequestType Type { get;}
 
-        public Request (int floor, Direction direction, RequestType type    )
+        public Request (int floor, Direction direction, RequestType type )
         {
             Floor = floor;
             Direction = direction;

@@ -26,6 +26,8 @@ namespace ElevatorSystem_LLD.src.ElevatorSystem.Domain.Entities
             Direction = Direction.Idle;
             Status = ElevatorStatus.Stopped;
             Requests = new Queue<Request>();
+            Door = new Door();
+
         }
     }
 }
