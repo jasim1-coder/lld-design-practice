@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splitwise-LLD", "Splitwise-LLD\Splitwise-LLD.csproj", "{2F173326-DFF3-4205-B7C2-3ABBCA86E446}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splitwise-LLD", "src\Splitwise-LLD\Splitwise-LLD.csproj", "{F6103A8D-F2EE-B710-C79D-1A8076F9D942}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2F173326-DFF3-4205-B7C2-3ABBCA86E446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F173326-DFF3-4205-B7C2-3ABBCA86E446}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F173326-DFF3-4205-B7C2-3ABBCA86E446}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F173326-DFF3-4205-B7C2-3ABBCA86E446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6103A8D-F2EE-B710-C79D-1A8076F9D942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6103A8D-F2EE-B710-C79D-1A8076F9D942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6103A8D-F2EE-B710-C79D-1A8076F9D942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6103A8D-F2EE-B710-C79D-1A8076F9D942}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FE488F67-927F-4062-8BD4-CFC089720726}
+		SolutionGuid = {258BFEE0-290B-4D5A-956B-F161737B2E14}
 	EndGlobalSection
 EndGlobal
