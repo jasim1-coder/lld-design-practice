@@ -18,7 +18,8 @@ namespace Splitwise_LLD.Strategies
 
             foreach (var split in splits)
             {
-                split.Amount  = (split.Amount / 100 ) * 100;
+                var percentage = split.Amount;
+                split.Amount = (percentage / 100) * amount;
             }
 
             return splits;

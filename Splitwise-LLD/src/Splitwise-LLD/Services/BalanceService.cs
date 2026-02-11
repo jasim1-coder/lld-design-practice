@@ -22,6 +22,10 @@ namespace Splitwise_LLD.Services
             _balances[from.Id][to.Id] += amount;
         }
 
+        public Dictionary<string, Dictionary<string, decimal>> GetBalances()
+        {
+            return _balances;
+        }
         public void PrintBalance(Dictionary<string, User> users)
         {
             foreach(var from in _balances)
